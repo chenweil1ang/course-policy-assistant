@@ -1,6 +1,6 @@
 # Course Policy Assistant
 
-**README prose word count:** approximately 250 words (headings, bullets, paths and commands excluded).
+**README prose word count:** approximately 280 words (headings, bullets, paths and commands excluded).
 
 ## Project status
 
@@ -41,7 +41,13 @@ python -B retrieve.py --selftest
 
 ## AI assistance
 
-GitHub Copilot was used to help inspect the requirements, review implementation choices and check the project structure. Suggestions were reviewed against the source code and the automated tests; no API key or private data was supplied.
+GitHub Copilot was used in three ways:
+
+- **Code:** it helped inspect the requirements, review implementation choices and check the project structure. It also advised on stopping the model from being swayed by confident or emotional wording, which led to the tone-neutralisation step and the prompt rule that tone is not evidence.
+- **Storyboard:** the three-panel storyboard image was generated with Copilot, then checked against the real interface and behaviour.
+- **Report:** Copilot helped review whether the report text, system diagram and storyboard match the current code, and suggested wording and accuracy corrections.
+
+Suggestions were reviewed against the source code and the automated tests, and I kept, changed or rejected them accordingly. No API key or private data was supplied.
 
 ## Additional files
 
