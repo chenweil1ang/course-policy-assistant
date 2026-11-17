@@ -43,7 +43,7 @@ python -B retrieve.py --selftest
 
 GitHub Copilot was used in three ways:
 
-- **Code:** it helped inspect the requirements, review implementation choices and check the project structure. It gave suggestions and guidance on connecting the model API to the application. It also advised on stopping the model from being swayed by confident or emotional wording, which led to the tone-neutralisation step and the prompt rule that tone is not evidence.
+- **Code:** it helped inspect the requirements, review implementation choices and check the project structure. It gave suggestions and guidance on connecting the model API to the application, and helped with the web chat layout and the evidence retrieval feature. It also advised on stopping the model from being swayed by confident or emotional wording, which led to the tone-neutralisation step and the prompt rule that tone is not evidence.
 - **Storyboard:** the three-panel storyboard image was generated with Copilot, then checked against the real interface and behaviour.
 - **Report:** Copilot helped review whether the report text, system diagram and storyboard match the current code, and suggested wording and accuracy corrections.
 
