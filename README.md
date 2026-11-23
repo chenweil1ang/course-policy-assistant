@@ -1,8 +1,10 @@
 # Course Policy Assistant
 
-**README prose word count:** approximately 280 words (headings, bullets, paths and commands excluded).
+**README prose word count:** approximately 330 words (headings, bullets, paths and commands excluded).
 
 ## Project status
+
+The starting point was the course laboratory prototype, including its local course-policy corpus and initial structure. I retained the supplied corpus and used it to implement and develop the Course Policy Assistant in this repository. The development work includes retrieval control, current-versus-superseded policy handling, intent routing, follow-up reference resolution, citation validation, abstention, source display and automated tests.
 
 This is a local web prototype for answering questions about the included course-policy corpus. It retrieves current passages locally, sends them to a configured language model, displays the answer and cited evidence, and warns about superseded material. Greetings, assistant-scope questions, follow-up references, unsupported questions and ambiguous deadlines are handled separately. The prototype is implemented and tested. Live model responses require an API key; response quality is not measured by the automated tests.
 
